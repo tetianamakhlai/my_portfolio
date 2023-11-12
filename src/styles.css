@@ -23,7 +23,7 @@ font-family:var(--font-for-main-text) ;
 text-align: center;
 font-size: 36px;
 font-style: normal;
-font-weight: 700;
+font-weight: bolder;
 line-height: normal;
 }
 .hero_h3{
@@ -51,8 +51,11 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.hero_btn:hover{
+  color: #212529 ;
+}
+
 .hero{
   background-color: #F9F7FE;;
-  padding-top: 276px;
-  padding-bottom: 270px ;
+  padding: 160px 20px;
 }
