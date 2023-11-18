@@ -7,9 +7,11 @@ h1,h2,h3,h4,h5,h6{
   font-family: var(--font-for-headings);
 }
 p{
-  font-family:var(--font-for-main-text) ;
+  font-family:var(--font-for-main-text);
+  font-size:16px;
 }
 
+/* home page */
 .hero_h1{
 font-size: 96px;
 font-style: normal;
@@ -75,9 +77,8 @@ background-color: #FFF;
 }
 
 
-
 .hero{
-  background-color: #F9F7FE;;
+  background-color: #F9F7FE;
   padding: 160px 20px;
 }
 .project_h2{
@@ -86,8 +87,75 @@ background-color: #FFF;
 line-height: normal;
 margin-top: 92px;
 }
-@media (max-width:900px) {
+
+
+/* About me page */
+
+.about_myself{
+  margin-top: 259px;
+  margin-left: 140px;
+}
+
+.about_myself h1{
+font-size: 57px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 29px;
+
+}
+
+.about_myself h2{
+font-family:var(--font-for-main-text);
+color: #272142;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 28px;
+}
+.about_myself_p{
+  color: (39, 33, 66, 0.7);
+}
+
+
+.photo{
+margin-top:239px ;
+margin-left: 80px;
+width:560px;
+border-radius: 20px;
+}
+.container.about{
+  margin-left: 0;
+  padding: 0 0 40px 0;
+}
+
+.work_inquiry{
+  background-color:  #F9F7FE;
+  margin-top: 200px;
+  padding: 50px 120px;
+}
+
+.work_inquiry h2{
+  font-size: 48px;
+}
+
+.footer{
+  margin: 120px 440px 50px;
+}
+.email{
+  font-size: 24px;
+  color: #212529;
+  text-decoration: none;
+}
+.footer i{
+  color: rgba(108, 99, 255, 1);
+  font-size: 18px;
+  margin: 7px;
   
+}
+@media (max-width:800px) {
+  /* home page */
   .description_btn{
     margin: 0 auto;
   }
@@ -113,6 +181,44 @@ margin-top: 92px;
     padding: 100px 20px;
   }
   
+
+  /* about me page */
+  .about_myself{
+    margin: 0px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .about_myself h1{
+    font-size: 45px;
+  }
+  .about_myself_p{
+    font-size: 14px;
+  }
+  
+  .photo{
+    margin-top: 50px;
+    margin-left: 0;
+ 
+  }
+
+  .work_inquiry{
+    margin-top: 50px;
+    display: block;
+  }
+
+  .work_inquiry h2{
+    text-align: center;
+  }
+  .work_inquiry p{
+    text-align: center;
+  }
+
+  .col-md-4{
+  text-align: center;
+  }
+  .footer{
+    margin: 0px;
+  }
 
 }
 
