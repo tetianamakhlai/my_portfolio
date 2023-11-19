@@ -28,7 +28,7 @@ font-weight: bolder;
 line-height: normal;
 }
 .hero_h2{
-  text-align: center;
+text-align: center;
 font-family: var(--font-for-main-text);
 font-size: 24px;
 font-style: normal;
@@ -82,8 +82,8 @@ background-color: #FFF;
   padding: 160px 20px;
 }
 .project_h2{
-  font-size: 64px;
-  font-weight: 700;
+font-size: 64px;
+font-weight: 700;
 line-height: normal;
 margin-top: 92px;
 }
@@ -154,6 +154,21 @@ border-radius: 20px;
   margin: 7px;
   
 }
+
+/* work page */
+
+
+.subheading_h2{
+  margin-top: 259px;
+  margin-left: 144px;
+  font-size: 64px;
+}
+
+.container.work{
+  margin: 0;
+  width: 100%;
+}
+
 @media (max-width:800px) {
   /* home page */
   .description_btn{
