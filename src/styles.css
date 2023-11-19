@@ -11,7 +11,38 @@ p{
   font-size:16px;
 }
 
-/* home page */
+/* HOME PAGE */
+
+/* nav bar */
+.logo{
+  max-height: 40px;
+}
+.logo_small{
+  max-height: 40px;
+}
+nav{
+  padding: 20px 0px;
+}
+nav ul{
+  margin-bottom: 0;
+  padding-left: 0;
+  line-height: 41px;
+  font-family:var(--font-for-main-text);
+}
+nav li{
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  color: #212529;
+}
+
+nav li.active a, nav a:hover{
+  color: #6C63FF;
+  text-decoration: none;
+}
+
+/* main section */
 .hero_h1{
 font-size: 96px;
 font-style: normal;
@@ -169,7 +200,10 @@ border-radius: 20px;
   width: 100%;
 }
 
-@media (max-width:800px) {
+@media (max-width:500px) {
+  nav a{
+    font-size: 12px;
+  }
   /* home page */
   .description_btn{
     margin: 0 auto;
