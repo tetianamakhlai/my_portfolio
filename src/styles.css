@@ -132,21 +132,19 @@ margin-top: 92px;
   color: #212529;
   text-decoration: none;
 }
-.footer i{
+ footer .social_icons a{
   color: var(--brand-color-bright);
   font-size: 18px;
-  margin: 10px;
-  
-}
-.social_icons a{
+  margin: 0px 4px;
+  padding: 10px 13px;
   text-decoration: none;
-  background-color:var(--brand-color-light) ;
-  padding: 10px 3px;
-  margin: 0 4px;
+  background-color:var(--brand-color-light);
   border-radius: 50%;
-  transition: all 150ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
-  .social_icons a:hover{
+
+ 
+ footer .social_icons a:hover {
   color: white;
   background-color:var(--brand-color-bright) ;
 }
