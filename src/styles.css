@@ -230,6 +230,26 @@ border-radius: 20px;
   footer .email{
     font-size: 16px;
   }
+
+
+  .about_me .photo{
+    width: auto;
+    margin-top: 70px;
+  }
+  .about_me h1, h2, p{
+    text-align: center;
+  }
+
+  .about_me .brand_btn{
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .container ,.subheading_h2{
+    margin: 20px 0;
+   
+  }
 }
 
 @media (max-width:770px) {
@@ -270,16 +290,23 @@ section h2{
 
   /* about me page */
 
-  .about_myself{
+  .about_me{
     margin: 0px;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
+    padding: 0px;
   }
-  .about_myself h1{
+  .about_me .row{
+    margin-top: 20px;
+  }
+  .about_me h1{
     font-size: 45px;
   }
-  .about_myself_p{
-    font-size: 14px;
+  .about_me h2{
+    font-size: 21px;
+  }
+  .about_me p{
+    font-size: 16px;
   }
   
   .photo{
@@ -312,6 +339,12 @@ section h2{
     font-size: 16px;
   }
 
+  /* Projects */
+
+  .container ,.subheading_h2{
+    margin: 20px 0;
+    font-size: 40px;
+  }
 }
 
 
