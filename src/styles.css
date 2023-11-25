@@ -15,17 +15,16 @@ p{
 }
 
 /* HOME PAGE */
-
-/* nav bar */
-.logo{
-  max-height: 40px;
-}
-.logo_small{
-  max-height: 40px;
-}
 nav{
-  padding: 20px 0px;
+  padding: 20px 0px;}
+
+nav .logo{
+  max-height: 40px;
 }
+nav .logo_small{
+  max-height: 40px;
+}
+
 nav ul{
   margin-bottom: 0;
   padding-left: 0;
@@ -46,32 +45,32 @@ nav li.active a, nav a:hover{
 }
 
 /* main section */
-.hero_h1{
+
+section {
+  background-color: var(--brand-color-light);
+  padding: 160px 20px;
+}
+section h1{
 font-size: 96px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 text-align: center;
 }
 
-.hero_p{
+section p{
 text-align: center;
 font-size: 36px;
-font-style: normal;
 font-weight: bolder;
-line-height: normal;
 }
-.hero_h2{
+
+section h2{
 text-align: center;
 font-family: var(--font-for-main-text);
 font-size: 24px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 margin-top: 24px;
 }
 
-.hero_btn{
+.brand_btn{
 width: 200px;
 padding: 18px 30px;
 margin-top: 49px;
@@ -82,15 +81,14 @@ background:var(--brand-color-bright);
 color: #FFF;
 font-family:var(--font-for-main-text) ;
 font-size: 18px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
 }
-.hero_btn:hover{
+
+.brand_btn:hover{
   color: #212529 ;
 }
 
-.description_btn{
+.brand_btn_calm{
 display: flex;
 width: 200px;
 padding: 18px 30px;
@@ -104,33 +102,25 @@ color: var(--brand-color-bright);
 text-align: center;
 font-family: Poppins;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
 background-color: #FFF;
 }
 
-
-.hero{
-  background-color: var(--brand-color-light);
-  padding: 160px 20px;
-}
-.project_h2{
+.content h2{
 font-size: 64px;
 font-weight: 700;
 line-height: normal;
 margin-top: 92px;
 }
 
-
-/* footer */
-.footer{
+footer{
   margin: 120px 440px 50px;
 }
-.email{
+footer .email{
   font-size: 24px;
   color: #212529;
   text-decoration: none;
+  font-family:var(--font-for-main-text);
 }
  footer .social_icons a{
   color: var(--brand-color-bright);
@@ -143,7 +133,7 @@ margin-top: 92px;
   transition: all 200ms ease-in-out;
 }
 
- 
+
  footer .social_icons a:hover {
   color: white;
   background-color:var(--brand-color-bright) ;
@@ -152,12 +142,12 @@ margin-top: 92px;
 
 /* About me page */
 
-.about_myself{
+.about_me{
   margin-top: 150px;
   margin-left: 140px;
 }
 
-.about_myself h1{
+.about_me h1{
 font-size: 57px;
 font-style: normal;
 font-weight: 700;
@@ -166,7 +156,7 @@ margin-bottom: 29px;
 
 }
 
-.about_myself h2{
+.about_me h2{
 font-family:var(--font-for-main-text);
 color: #272142;
 font-size: 18px;
@@ -175,17 +165,15 @@ font-weight: 700;
 line-height: normal;
 margin-bottom: 28px;
 }
-.about_myself_p{
+.about_me p{
   color: (39, 33, 66, 0.7);
 }
 
-.photo{
-margin-top:150px ;
-margin-left: 80px;
+.about_me .photo{
 width:560px;
 border-radius: 20px;
 }
-.container.about{
+.about_me{
   margin-left: 0;
   padding: 0 0 40px 0;
 }
@@ -225,30 +213,33 @@ border-radius: 20px;
 
   /* home page */
 
-  .description_btn{
+  .brand_btn_calm{
     margin: 0 auto;
   }
-  .project_description{
+  
+  .content h2{
     text-align: center;
-  }
-  .project_h2{
-    margin: 0;
-    font-size: 42px;
+    font-size: 40px;
   }
   
-  .hero_h1{
-    font-size: 70px;
+ section h1{
+  font-size: 70px;
   }
-  .hero_p{
-    font-size: 24px;
+ section p{
+  font-size: 20px;
 }
-.hero_h2{
-  font-size: 16px;
+section h2{
+  font-size: 20px;
   }
 
-  .hero{
-    padding: 100px 20px;
+  section{
+    padding: 100px 0 50px 0;
   }
+
+  .brand_btn{
+    font-size: 16px;
+    margin-top: 80px;
+    }
   
 
   /* about me page */
@@ -271,6 +262,7 @@ border-radius: 20px;
  
   }
 
+  
   .work_inquiry{
     margin-top: 50px;
     display: block;
@@ -278,6 +270,7 @@ border-radius: 20px;
 
   .work_inquiry h2{
     text-align: center;
+    font-size: 40px;
   }
   .work_inquiry p{
     text-align: center;
@@ -287,7 +280,10 @@ border-radius: 20px;
   text-align: center;
   }
   .footer{
-    margin: 0px;
+    margin: 30px 0 40px 0;
+  }
+  footer .email{
+    font-size: 16px;
   }
 
 }
