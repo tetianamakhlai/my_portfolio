@@ -113,11 +113,22 @@ line-height: normal;
 margin-top: 92px;
 }
 
+
+.work_inquiry{
+  background-color:  var(--brand-color-light);
+  margin-top: 200px;
+  padding: 50px 120px;
+}
+
+.work_inquiry h2{
+  font-size: 48px;
+}
+
 footer{
   margin: 120px 440px 50px;
 }
 footer .email{
-  font-size: 24px;
+  font-size: 16px;
   color: #212529;
   text-decoration: none;
   font-family:var(--font-for-main-text);
@@ -178,15 +189,7 @@ border-radius: 20px;
   padding: 0 0 40px 0;
 }
 
-.work_inquiry{
-  background-color:  var(--brand-color-light);
-  margin-top: 200px;
-  padding: 50px 120px;
-}
 
-.work_inquiry h2{
-  font-size: 48px;
-}
 
 
 /* work page */
@@ -203,10 +206,33 @@ border-radius: 20px;
   width: 100%;
 }
 
+ /* RESPONSIVNESS  */
 
-/* RESPONSIVNESS */
+@media (max-width:1000px){
+  .content h2{
+    font-size:40px;
+    margin-top: 10px
+  } ;
 
-@media (max-width:500px) {
+  .brand_btn_calm{
+    margin-top: 0px;
+  }
+  .row{
+    margin: 50px 0px 50px 0px;
+  }
+  .work_inquiry{
+    margin-top: 50px;
+    padding: 2px 10px;
+  }
+  footer{
+    margin: 30px 0 40px 0;
+  }
+  footer .email{
+    font-size: 16px;
+  }
+}
+
+@media (max-width:770px) {
   nav a{
     font-size: 12px;
   }
