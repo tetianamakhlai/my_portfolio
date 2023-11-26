@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Makhlai Tetiana</title>
+    <title>About junior Frontend Developer Makhlai Tetiana</title>
+    <meta
+      name="description"
+      content="I'm a responsible and creative beginner, who is hungry for new experience.  "
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <link
       rel="stylesheet"
@@ -22,20 +26,31 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <nav>
       <div class="container d-flex justify-content-between">
-        <img src="photos/logo.png" alt="logo" class="d-none d-sm-block logo" />
+        <img
+          src="photos/logo.png"
+          alt="Tetiana logo"
+          class="d-none d-sm-block logo"
+        />
         <img
           src="photos/logo_mini.png"
-          alt="logo"
+          alt="Tetiana logo"
           class="d-block d-sm-none logo_small"
         />
         <ul class="d-inline-flex">
-          <li class="ml-3"><a href="/index.html">Home</a></li>
-          <li class="active ml-3"><a href="/about.html">About</a></li>
-          <li class="ml-3"><a href="/work.html">Projects</a></li>
-          <li class="ml-3"><a href="/about.html#contacts">Contacts</a></li>
+          <li class="ml-3"><a href="/index.html" title="Home page">Home</a></li>
+          <li class="active ml-3">
+            <a href="/about.html" title="About Tetiana">About</a>
+          </li>
+          <li class="ml-3">
+            <a href="/work.html" title="Tetiana's work">Projects</a>
+          </li>
+          <li class="ml-3">
+            <a href="/about.html#contacts" title="Contact Tetiana ">Contacts</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -53,7 +68,7 @@
               keep focus
             </p>
             <button class="brand_btn mt-4" type="button">
-              View all project
+              <a href="#contacts"> View all project</a>
             </button>
           </div>
         </div>
@@ -65,7 +80,7 @@
           />
         </div>
       </div>
-      <div class="container work_inquiry" id="contacts">
+      <div class="container work_inquiry">
         <div class="row">
           <div class="col-md-8">
             <h2>Work Inquiry</h2>
@@ -75,21 +90,32 @@
           </div>
           <div class="col-md-4">
             <button class="brand_btn mt-4 work_inquiry_btn" type="button">
-              Let's talk here
+              <a href="#contacts"> Let's talk here </a>
             </button>
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="footer text-center">
+    <footer class="footer text-center" id="contacts">
       <a href="mailto:tetianamakhlai@gmail.com" class="email"
         >tetianamakhlai@gmail.com</a
       >
       <div class="social_icons mt-3">
-        <a href="http://"> <i class="fa-brands fa-instagram"></i> </a>
-        <a href="http://"> <i class="fa-brands fa-linkedin"></i></a>
-        <a href="http://"> <i class="fa-brands fa-github"></i> </a>
+        <a
+          href="https://www.linkedin.com/in/tetiana-makhlai-6b54b6124/"
+          target="_blank"
+          title="linkedin"
+        >
+          <i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/tetianamakhlai"
+          target="_blank"
+          title="github"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
       </div>
     </footer>
   </body>

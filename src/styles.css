@@ -70,6 +70,9 @@ font-weight: 400;
 margin-top: 24px;
 }
 
+button a{
+  color:#FFF ;
+}
 .brand_btn{
 width: 200px;
 padding: 18px 30px;
@@ -113,6 +116,9 @@ line-height: normal;
 margin-top: 92px;
 }
 
+.content a{
+  color: var(--brand-color-bright)
+}
 
 .work_inquiry{
   background-color:  var(--brand-color-light);
@@ -150,6 +156,9 @@ footer .email{
   background-color:var(--brand-color-bright) ;
 }
 
+footer p{
+  font-size: smaller;
+}
 
 /* About me page */
 
