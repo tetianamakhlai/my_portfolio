@@ -1,8 +1,8 @@
 :root {
   --font-for-headings: Playfair Display;
   --font-for-main-text:  Poppins;
-  --brand-color-bright:#6C63FF;
-  --brand-color-light:#F9F7FE;
+  --brand-color-bright:#639cff;
+  --brand-color-light:#f7f8fe;
   
 }
 
@@ -70,7 +70,7 @@ font-weight: 400;
 margin-top: 24px;
 }
 
-button a{
+ button a{
   color:#FFF ;
 }
 .brand_btn{
