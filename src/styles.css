@@ -218,7 +218,6 @@ img.center{
 
 #projects{
   margin-top: 100px;
-  background-color: aqua;
 }
 .carousel{
   margin-top: 100px;
@@ -235,6 +234,23 @@ img.center{
   margin-bottom: -10px;
 } 
 
+button.btn{
+  border: none;
+  margin-left: 20px;
+}
+
+.btn_projects i {
+  font-size: 50px;
+  color:var(--brand-color-grey) ;
+}
+
+.btn_projects i:hover {
+  color:var(--brand-color-accent) ;
+}
+
+button.weather_app{
+  margin-top:40px;
+}
 
 /* Contact form */
 .contact_form_background{
