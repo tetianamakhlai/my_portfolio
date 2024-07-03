@@ -249,8 +249,8 @@ transform: scale(0.8);
 .background_skills{
 position: absolute;
 z-index: 1;
-right: 0;
-
+right: -10px;
+bottom:-200px;
 
 }
 
@@ -296,11 +296,17 @@ img.center{
     margin-left: auto;
     margin-right: auto;
 }
+
+
 /* Projects */
 .container.projects{
   position: relative;
   z-index: 4; 
   margin-top: 150px;
+}
+
+img.newcomer{
+  width: auto;
 }
 
 #projects{
