@@ -120,13 +120,42 @@
           </div>
         </div>
         <div class="col-6">
-          <div class="right">
-            <h3 class="mb-5">About me</h3>
-            <p>
-              I have been inspired by technologies, and now finily happy to grow
-              towards this direction and bringing diffent experiences together
-              in one point, bringing beauty ti this word.
+          <div class="right bg-white me-5">
+            <h3 class="mb-4">About me</h3>
+
+            <p class="me-5">
+              I'm a Junior Front-End Developer based in the vibrant city of
+              Berlin. My journey into the world of web development has been
+              fueled by a passion for crafting beautiful, user-friendly digital
+              experiences.
             </p>
+            <div class="div">
+              <span
+                class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                >Fast Learner</span
+              >
+              <span
+                class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                >Love React.js</span
+              >
+              <span
+                class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                >UX Advocate</span
+              >
+
+              <span
+                class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                >Teamworker</span
+              >
+            </div>
+            <span
+              class="badge bg-secondary text-white even-larger-badge fw-lighter"
+              >Problem-Solver</span
+            >
+            <span
+              class="badge bg-secondary text-white even-larger-badge fw-lighter"
+              >Creative Mindset</span
+            >
           </div>
         </div>
       </div>
@@ -141,10 +170,10 @@
     <div class="container my_skills">
       <div class="row skills">
         <div class="col-6 skills-left">
-          <h3>Skills</h3>
-          <p>
-            I enjoy creating things that live on the internet, whether that be
-            websites, applications, or anything in between.
+          <h3 class="ms-5 pb-2">My Toolbox</h3>
+          <p class="ms-5 pb-2">
+            I enjoy tackling challenges head-on and finding innovative solutions
+            to complex problems with following tools:
           </p>
           <div class="container technologies">
             <div class="row">
@@ -295,148 +324,70 @@
       </div>
     </div>
     <!-- Projects -->
-    <div id="projects">
-      <div class="container projects">
-        <h3 class="mb-5 text-center">Recent projects</h3>
-        <div
-          id="carouselExampleIndicators"
-          class="carousel carousel-dark slide"
-          data-bs-ride="carousel"
+
+    <div class="container projects" id="projects">
+      <h3 class="mb-3 text-center">Recent projects</h3>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <button
+          class="carousel-control-prev btn-dark"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
         >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container">
-                <div class="row">
-                  <div class="col-6">
-                    <img
-                      src="../photos/newcomer.png"
-                      class="img-fluid newcomer"
-                      alt="new comer"
-                    />
-                  </div>
-                  <div class="col-6">
-                    <h2>Newcomer app</h2>
-                    <span
-                      class="badge bg-secondary text-white even-larger-badge"
-                      >Figma</span
-                    >
-                    <p class="mt-4 mb-4 text-muted">
-                      Newcomer is a web app, that works as a smart handbook,
-                      where immigrants will be guided by a personalised track
-                      with valuable tips and information to cope with these
-                      challenges.
-                    </p>
-                    <button class="btn">
-                      <a
-                        href="https://github.com/TechLabs-Berlin/st21-newcomer/blob/main/Blogpost.md"
-                        target="_blank"
-                        class="btn_projects"
-                        ><i class="fa-brands fa-github"></i
-                      ></a>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container">
-                <div class="row">
-                  <div class="col-6">
-                    <img
-                      src="photos/todo.png"
-                      alt="to-do-list"
-                      class="img-fluid"
-                    />
-                  </div>
-                  <div class="col-6">
-                    <h2>To-do list</h2>
-                    <div class="text-start">
-                      <span
-                        class="badge bg-secondary text-white even-larger-badge"
-                        >React.js</span
-                      >
-                      <span
-                        class="badge bg-secondary text-white even-larger-badge"
-                        >Next.js</span
-                      >
-                      <span
-                        class="badge bg-secondary text-white even-larger-badge"
-                        >Typescript</span
-                      >
-                      <span
-                        class="badge bg-secondary text-white even-larger-badge"
-                        >MUI</span
-                      >
-                    </div>
-                    <p class="mt-4 text-muted">
-                      Have you got a lot to do? This app will help you to set
-                      thing in order. Write down your task, mark when it's
-                      completed or even delete the task.
-                    </p>
-                    <div class="d-flex justify-content-start">
-                      <button class="btn">
-                        <a
-                          href="https://github.com/tetianamakhlai/todo_list"
-                          target="_blank"
-                          class="btn_projects"
-                          ><i class="fa-brands fa-github"></i
-                        ></a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
               <div class="row">
                 <div class="col-6">
                   <img
-                    src="../photos/weather.png"
-                    alt="weather application"
-                    class="img-fluid"
+                    src="../photos/newcomer.png"
+                    class="img-fluid newcomer"
+                    alt="new comer"
                   />
                 </div>
                 <div class="col-6">
-                  <h2>Weather App</h2>
-                  <span class="badge bg-secondary text-white even-larger-badge"
-                    >React.js</span
-                  >
-                  <span class="badge bg-secondary text-white even-larger-badge"
-                    >Bootstrap</span
-                  >
-                  <span class="badge bg-secondary text-white even-larger-badge">
-                    OpenWeatherAPI</span
+                  <h2>Newcomer app</h2>
+                  <span
+                    class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                    >Figma</span
                   >
                   <p class="mt-4 mb-4 text-muted">
-                    This weather app informs the user of the current
-                    temperature, wind speed,humidity and 5-days weather forecast
-                    for any city of the world.
+                    Newcomer is a web app, that works as a smart handbook, where
+                    immigrants will be guided by a personalised track with
+                    valuable tips and information to cope with these challenges.
                   </p>
                   <button class="btn">
                     <a
-                      href="https://github.com/tetianamakhlai/new_react_weather_app?tab=readme-ov-file"
+                      href="https://github.com/TechLabs-Berlin/st21-newcomer/blob/main/Blogpost.md"
                       target="_blank"
                       class="btn_projects"
                       ><i class="fa-brands fa-github"></i
@@ -446,43 +397,127 @@
               </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev btn-dark"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <img
+                    src="photos/todo.png"
+                    alt="to-do-list"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-6">
+                  <h2>To-do list</h2>
+                  <div class="text-start">
+                    <span
+                      class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                      >React.js</span
+                    >
+                    <span
+                      class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                      >Next.js</span
+                    >
+                    <span
+                      class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                      >Typescript</span
+                    >
+                    <span
+                      class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                      >MUI</span
+                    >
+                  </div>
+                  <p class="mt-4 text-muted">
+                    Have you got a lot to do? This app will help you to set
+                    thing in order. Write down your task, mark when it's
+                    completed or even delete the task.
+                  </p>
+                  <div class="d-flex justify-content-start">
+                    <button class="btn">
+                      <a
+                        href="https://github.com/tetianamakhlai/todo_list"
+                        target="_blank"
+                        class="btn_projects"
+                        ><i class="fa-brands fa-github"></i
+                      ></a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item pt-5">
+            <div class="row">
+              <div class="col-6">
+                <img
+                  src="../photos/weather.png"
+                  alt="weather application"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-6">
+                <h2>Weather App</h2>
+                <span
+                  class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                  >React.js</span
+                >
+                <span
+                  class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                  >Bootstrap</span
+                >
+                <span
+                  class="badge bg-secondary text-white even-larger-badge fw-lighter"
+                >
+                  OpenWeatherAPI</span
+                >
+                <p class="mt-4 mb-4 text-muted">
+                  This weather app informs the user of the current temperature,
+                  wind speed,humidity and 5-days weather forecast for any city
+                  of the world.
+                </p>
+                <button class="btn">
+                  <a
+                    href="https://github.com/tetianamakhlai/new_react_weather_app?tab=readme-ov-file"
+                    target="_blank"
+                    class="btn_projects"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <a href="/index.html#contact"
-          ><i class="fa-solid fa-arrow-down-long scroll_down_to_contacts"></i
-        ></a>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+
+      <a href="/index.html#contact"
+        ><i class="fa-solid fa-arrow-down-long scroll_down_to_contacts"></i
+      ></a>
     </div>
 
     <!-- Contact form -->
-    <div class="contact_form_background">
-      <div class="contact_form" id="contact">
+    <div class="contact_form_background" id="contact">
+      <div class="contact_form">
         <div class="m-1">
-          <h1 class="text-black text-center">Let's get in touch</h1>
+          <h1 class="text-black text-center">Let's Connect!</h1>
           <div class="fs-6 fw-light mb-2">
             <p class="text-black text-center">
-              Drop me a line. I would like to hear from you.
+              I'm always excited to connect with like-minded individuals and
+              explore new opportunities. Whether you have a project in mind, a
+              collaboration opportunity, or just want to chat about the latest
+              in tech, feel free to reach out!
             </p>
           </div>
           <form id="contact_form" name="contact_form" method="post">
-            <div class="mb-5 text-black">
+            <div class="mb-5 text-black fs-4">
               <label for="message">Message</label>
               <textarea
                 class="form-control"
@@ -492,7 +527,7 @@
               ></textarea>
             </div>
             <div class="mb-5 row">
-              <div class="col text-black">
+              <div class="col text-black fs-4">
                 <label>Your Name:</label>
                 <input
                   type="text"
@@ -503,7 +538,7 @@
                   name="name"
                 />
               </div>
-              <div class="col text-black">
+              <div class="col text-black fs-4">
                 <label for="email_addr">Your Email:</label>
                 <input
                   type="email"
@@ -517,7 +552,7 @@
               </div>
             </div>
             <div class="text-center">
-              <button type="submit" class="btn btn-success w-50">
+              <button type="submit" class="btn btn-success w-50 p-2">
                 Send message
               </button>
             </div>
@@ -547,12 +582,6 @@
           <i class="fa-solid fa-envelope"></i
         ></a>
       </div>
-      <p class="text-center">
-        This project was created by Tetiana Makhlai and it's
-        <a href="https://github.com/tetianamakhlai/my_portfolio" target="_blank"
-          >open sourced</a
-        >
-      </p>
     </footer>
 
     <script

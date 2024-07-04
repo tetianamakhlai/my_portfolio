@@ -15,7 +15,7 @@ font-family: "League Spartan", sans-serif;
 
 body{
   font-family: var(--font);
-  font-size:28px;
+  font-size:22px;
   font-weight: 300;
 }
 
@@ -187,7 +187,7 @@ h3{
   color:var(--brand-color-grey);
   position: relative;
   z-index: 10;
-  top: 60px;
+  top: 0;
   left: 0;
 }
 
@@ -224,8 +224,8 @@ right:50px;
 
 .photo_deco{
 position: absolute;
-top:825px;
-left:70px; 
+bottom:-40%;
+left:7%; 
 }
 
 .Main_photo{
@@ -302,34 +302,24 @@ img.center{
 .container.projects{
   position: relative;
   z-index: 4; 
-  margin-top: 150px;
+  margin-top: -140px;
+  padding-top: 70px;
 }
 
-img.newcomer{
-  width: auto;
-}
 
 #projects{
-  margin-top: 00px;
+  margin-top: 140px;
 }
 .carousel{
-  margin-top: 100px;
-}
-.carousel-control-next {
-  margin-right: 500px;
-}
-.carousel-control-prev{
-  margin-left: -63px;
+
+  padding: 50px 70px;
 }
 
-.carousel-indicators {
-  margin-left: 310px;
-  margin-bottom: -10px;
-} 
+
 
 button.btn{
   border: none;
-  margin-left: 20px;
+  padding: 0;
 }
 
 .btn_projects i {
@@ -345,10 +335,48 @@ button.weather_app{
   margin-top:40px;
 }
 
+
+.carousel-item {
+  height: 500px; /* Adjust to your desired height */
+}
+
+.carousel-item .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item img {
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.carousel-inner {
+  height: 500px; /* Ensure consistent height */
+}
+
+.carousel-indicators {
+  bottom: 50px; 
+}
+
+.carousel-control-prev {
+  left: -5%;
+}
+
+.carousel-control-next {
+  right: -4%;
+}
+
+.col-6 h2 {
+  padding-top: 10%;
+}
+
+
 /* Contact form */
 .contact_form_background{
  margin-top: 100px;
- height: 80vh;
+ height: 90vh;
   background-image: url(../photos/contact_form.png);
   background-repeat: no-repeat;
   background-position: center;
