@@ -31,45 +31,48 @@
   <!-- BODY -->
   <body>
     <section class="hero">
-      <!-- running line -->
-      <div class="header ticker-wrapper">
-        <div class="ticker-wrapper__first-half">
-          <p>Respontive version of the website is comming soon :)</p>
-          <p>Respontive version of the website is comming soon :)</p>
-        </div>
-        <div class="ticker-wrapper__second-half">
-          <p>Respontive version of the website is comming soon :)</p>
-          <p>Respontive version of the website is comming soon :)</p>
-        </div>
-      </div>
-
       <!-- Nav bar -->
-      <nav>
-        <div class="container d-flex">
-          <ul class="d-inline-flex">
-            <li class="active">
-              <a href="/index.html" title="Home page" class="letter_space">
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="/index.html#about_me"
-                title="About Tetiana"
-                class="letter_space"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a href="/index.html#projects" title="Tetiana's work">Projects</a>
-            </li>
-            <li>
-              <a href="/index.html#contact" title="Contact Tetiana "
-                >Contact me</a
-              >
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a href="/index.html" title="Home page" class="letter_space">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="/index.html#about_me"
+                  title="About Tetiana"
+                  class="letter_space"
+                >
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/index.html#projects" title="Tetiana's work"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="/index.html#contact" title="Contact Tetiana "
+                  >Contact me</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
@@ -100,12 +103,12 @@
       </div>
     </section>
 
-    <div class="backgroundSecond"></div>
+    <div class="backgroundSecond d-none d-sm-block d-sm-none d-md-block"></div>
     <!-- Is it better to put second background into hero section?-*/-->
 
-    <div class="container about_me ms-5">
+    <div class="container about_me">
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6">
           <div class="left">
             <img
               src="../photos/PhotoDeco.png"
@@ -113,14 +116,18 @@
               class="photo_deco"
               id="about_me"
             />
-            <img src="../photos/MyPhoto.png" alt="my foto" class="Main_photo" />
+            <img
+              src="../photos/MyPhoto.png"
+              alt="my foto"
+              class="Main_photo img-fluid"
+            />
             <a href="/index.html#my_skills"
               ><i class="fa-solid fa-arrow-down-long scroll_down_skills"></i
             ></a>
           </div>
         </div>
-        <div class="col-6">
-          <div class="right bg-white me-5">
+        <div class="col-sm-12 col-md-6">
+          <div class="right bg-white">
             <h3 class="mb-4">About me</h3>
 
             <p class="me-5">
@@ -169,7 +176,7 @@
     /> -->
     <div class="container my_skills">
       <div class="row skills">
-        <div class="col-6 skills-left">
+        <div class="col-sm-12 col-md-6 skills-left">
           <h3 class="ms-5 pb-2">My Toolbox</h3>
           <p class="ms-5 pb-2">
             I enjoy tackling challenges head-on and finding innovative solutions
@@ -308,17 +315,17 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6 skills-left">
           <img
             src="../photos/PhotoDeco.png"
             alt="photo deco"
-            class="photo_deco_skills"
+            class="photo_deco_skills d-none"
             id="my_skills"
           />
           <img
             src="../photos/skills.png"
             alt="photo of laptop and hands"
-            class="right_side_picture"
+            class="right_side_picture img-fluid"
           />
         </div>
       </div>
@@ -367,14 +374,14 @@
           <div class="carousel-item active">
             <div class="container">
               <div class="row">
-                <div class="col-6">
+                <div class="col-sm-12 col-md-6">
                   <img
                     src="../photos/newcomer.png"
                     class="img-fluid newcomer"
                     alt="new comer"
                   />
                 </div>
-                <div class="col-6">
+                <div class="col-sm-12 col-md-6">
                   <h2>Newcomer app</h2>
                   <span
                     class="badge bg-secondary text-white even-larger-badge fw-lighter"
@@ -400,14 +407,14 @@
           <div class="carousel-item">
             <div class="container">
               <div class="row">
-                <div class="col-6">
+                <div class="col-sm-12 col-md-6">
                   <img
                     src="photos/todo.png"
                     alt="to-do-list"
                     class="img-fluid"
                   />
                 </div>
-                <div class="col-6">
+                <div class="col-sm-12 col-md-6">
                   <h2>To-do list</h2>
                   <div class="text-start">
                     <span
@@ -448,14 +455,14 @@
           </div>
           <div class="carousel-item pt-5">
             <div class="row">
-              <div class="col-6">
+              <div class="col-sm-12 col-md-6">
                 <img
                   src="../photos/weather.png"
                   alt="weather application"
                   class="img-fluid"
                 />
               </div>
-              <div class="col-6">
+              <div class="col-sm-12 col-md-6">
                 <h2>Weather App</h2>
                 <span
                   class="badge bg-secondary text-white even-larger-badge fw-lighter"
@@ -506,7 +513,7 @@
     <!-- Contact form -->
     <div class="contact_form_background" id="contact">
       <div class="contact_form">
-        <div class="m-1">
+        <div class="m-1 thank-you">
           <h1 class="text-black text-center">Let's Connect!</h1>
           <div class="fs-6 fw-light mb-2">
             <p class="text-black text-center">
